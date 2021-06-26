@@ -1,0 +1,151 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background: rgba(0,0,100,0.4);
+    height: 100vh;
+}
+.video-background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+.welcome-msg
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    top: 150px;
+}
+.welcome-msg h1
+{
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.btn
+{
+    font-size: 18px;
+    color: #fff;
+    margin: 5px;
+    padding: 7px  22px;
+    text-decoration: none;
+    border: 1px solid coral;
+    border-radius: 25 px;
+}
+.btn-subscribe:hover
+{
+    background: rgb(255, 81, 81);
+    transition: 1.8s;
+}
+.btn-comment:hover
+{
+    background: rgb(255, 81, 81);
+    transition: 1.8s;
+}
+.btn-subscribe1:hover
+{
+    background: rgb(255, 81, 81);
+    transition: 1.8s;
+}
+.logo
+{
+    margin: 25px;
+    height: 40px;
+}
+.Clan-name
+{
+    text-align: center;
+}
+h1
+{color: rgb(253, 115, 115);}
+.members
+{
+    text-align: center;
+}
+.members1
+{
+    text-align: center;
+}
+body
+{
+    background: rgb(172, 170, 168);
+    margin-bottom: auto;
+}
+.welcome-msg1
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    top: 150px;
+}
+.btn
+{
+    font-size: 18px;
+    color: #fff;
+    margin: 5px;
+    padding: 7px  22px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 244, 85);
+    border-radius: 25 px;
+}
+.btn-subscribe3:hover
+{
+    background: rgb(255, 81, 81);
+    transition: 1.8s;
+}
+.application
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    top: 150px;
+}
+.btn-application:hover
+{
+    background: rgb(255, 81, 81);
+    transition: 1.8s;
+}
+.btn-application1:hover
+{
+    background: rgb(255, 81, 81);
+    transition: 1.8s;
+}
+.clan-name
+{
+    background: rgb(10, 10, 10);
+    transition: 1.8s;
+}
+.color1
+{
+    color: black;
+}
